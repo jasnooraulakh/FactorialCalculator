@@ -55,6 +55,12 @@ build CMakeFiles/FactorialCalculator.dir/main.cpp.o: CXX_COMPILER__FactorialCalc
   OBJECT_DIR = CMakeFiles/FactorialCalculator.dir
   OBJECT_FILE_DIR = CMakeFiles/FactorialCalculator.dir
 
+build CMakeFiles/FactorialCalculator.dir/classFactorial.cpp.o: CXX_COMPILER__FactorialCalculator_unscanned_Debug /Users/aulakh/Documents/GitHub/FactorialCalculator/classFactorial.cpp || cmake_object_order_depends_target_FactorialCalculator
+  DEP_FILE = CMakeFiles/FactorialCalculator.dir/classFactorial.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FactorialCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/FactorialCalculator.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target FactorialCalculator
@@ -63,7 +69,7 @@ build CMakeFiles/FactorialCalculator.dir/main.cpp.o: CXX_COMPILER__FactorialCalc
 #############################################
 # Link the executable FactorialCalculator
 
-build FactorialCalculator: CXX_EXECUTABLE_LINKER__FactorialCalculator_Debug CMakeFiles/FactorialCalculator.dir/main.cpp.o
+build FactorialCalculator: CXX_EXECUTABLE_LINKER__FactorialCalculator_Debug CMakeFiles/FactorialCalculator.dir/main.cpp.o CMakeFiles/FactorialCalculator.dir/classFactorial.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.0
   OBJECT_DIR = CMakeFiles/FactorialCalculator.dir
   POST_BUILD = :
