@@ -12,6 +12,7 @@ using namespace std;
 class Factorial {
 
     int calculateFactorial(int);
+    void displayMenu();
 };
 
 
