@@ -18,5 +18,18 @@ int Factorial::calculateFactorial(int number) {
 }
 
 void Factorial::displayMenu() {
+    cout << "Welcome to the Factorial Calculator" << endl;
 
+    while (true) {
+        cout << "Enter a number (or type 'exit' to quit): ";
+        cin >> user_entry;
+
+        if (user_entry == "exit") {
+            break;
+        }
+        int num = stoi(user_entry);
+
+        result = calculateFactorial(num);
+        cout << "The Factorial is " << result << endl;
+    }
 }
