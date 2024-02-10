@@ -9,9 +9,13 @@
 using namespace std;
 
 int Factorial::calculateFactorial(int number) {
+    // Calculate factorial for a provided number
+
+    // Base Case
     if (number <= 1) {
         return 1;
     }
+    // Recursive Case
     else {
         return (number * calculateFactorial(number - 1));
     }
@@ -22,14 +26,20 @@ void Factorial::displayMenu() {
 
     while (true) {
         cout << "Enter a number (or type 'exit' to quit): ";
-        cin >> user_entry;
+        getline(cin, user_entry);
 
-        if (user_entry == "exit") {
+        if (user_entry == "exit" || user_entry == "Exit") {
             break;
         }
-        int num = stoi(user_entry);
+        try {
+            // Convert input to int, and try
+            int num = stoi(user_entry);
 
-        result = calculateFactorial(num);
-        cout << "The Factorial is " << result << endl;
+            result = calculateFactorial(num);
+            cout << "The Factorial is " << result << endl;
+        }
+        catch (invalid_argument& ia){
+            cout << "Invalid input. Please try again" << endl;
+        }
     }
 }

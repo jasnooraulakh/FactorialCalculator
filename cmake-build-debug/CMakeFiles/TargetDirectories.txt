@@ -1,3 +1,3 @@
-/Users/aulakh/Documents/GitHub/FactorialCalculator/cmake-build-debug/CMakeFiles/FactorialCalculator.dir
-/Users/aulakh/Documents/GitHub/FactorialCalculator/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/aulakh/Documents/GitHub/FactorialCalculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Jasnoor Singh/Documents/GitHub/FactorialCalculator/cmake-build-debug/CMakeFiles/FactorialCalculator.dir
+C:/Users/Jasnoor Singh/Documents/GitHub/FactorialCalculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Jasnoor Singh/Documents/GitHub/FactorialCalculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
